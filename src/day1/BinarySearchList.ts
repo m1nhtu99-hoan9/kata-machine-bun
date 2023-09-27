@@ -12,11 +12,9 @@ export default function bs_list(haystack: number[], needle: number): boolean | n
         }
         if (v < needle) {
             lo = m + 1;
-            continue;
         }
         else {
             hi = m;
-            continue;
         }
     } while (lo < hi);
     return -1;
