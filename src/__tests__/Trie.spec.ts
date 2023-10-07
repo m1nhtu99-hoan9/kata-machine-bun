@@ -1,23 +1,17 @@
-import Trie from "@code/Trie";
+import Trie from "../day3/Trie";
+// @ts-ignore
+import { test, expect } from "bun:test";
 
-test("Trie", function() {
-    const trie = new Trie();
-    trie.insert("foo");
-    trie.insert("fool");
-    trie.insert("foolish");
-    trie.insert("bar");
+test("Trie", function () {
+  const trie = new Trie();
+  trie.insert("foo");
+  trie.insert("fool");
+  trie.insert("foolish");
+  trie.insert("bar");
 
-    expect(trie.find("fo").sort()).toEqual([
-        "foo",
-        "fool",
-        "foolish",
-    ]);
+  expect(trie.find("fo").sort()).toEqual(["foo", "fool", "foolish"]);
 
-    trie.delete("fool");
+  trie.delete("fool");
 
-    expect(trie.find("fo").sort()).toEqual([
-        "foo",
-        "foolish",
-    ]);
+  expect(trie.find("fo").sort()).toEqual(["foo", "foolish"]);
 });
-

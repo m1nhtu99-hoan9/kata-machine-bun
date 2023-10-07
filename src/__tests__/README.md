@@ -17,3 +17,6 @@ bun test DFSOnBST BTBFS BTInOrder BTPreOrder BTPostOrder
 - [x] `BTPostOrder`
 - [x] `BTBFS`
 - [x] `DFSOnBST`
+
+- [x] `MinHeap`
+- [x] `Trie`
