@@ -1,4 +1,4 @@
-import maze_solver from "@code/MazeSolver";
+import maze_solver from "../day1/MazeSolver";
 // @ts-ignore
 import { test, expect } from "bun:test";
 
