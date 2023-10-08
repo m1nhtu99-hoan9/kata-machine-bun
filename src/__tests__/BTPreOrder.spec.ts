@@ -1,7 +1,6 @@
 import bt_pre_order from "../day3/BTPreOrder";
 import { tree } from "./tree";
 
-// @ts-check
 import { test, expect } from "bun:test";
 
 test("Pre order", function () {

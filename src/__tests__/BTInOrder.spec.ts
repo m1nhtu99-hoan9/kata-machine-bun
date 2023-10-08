@@ -1,7 +1,5 @@
 import bt_in_order from "../day3/BTInOrder";
 import { tree } from "./tree";
-
-// @ts-ignore
 import { test, expect } from "bun:test";
 
 test("In order", function () {

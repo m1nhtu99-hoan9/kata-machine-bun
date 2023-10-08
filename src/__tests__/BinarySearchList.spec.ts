@@ -1,5 +1,4 @@
 import binary_fn from "../day1/BinarySearchList";
-// @ts-ignore
 import { test, expect } from "bun:test";
 
 //`bun test BinarySearchList`

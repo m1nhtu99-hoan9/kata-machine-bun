@@ -1,25 +1,22 @@
 {
-    "compilerOptions": {
-        "outDir": "dist",
-        "allowJs": true,
-        "noImplicitAny": true,
-        "strictNullChecks": true,
-        "resolveJsonModule": true,
-        "noImplicitReturns": true,
-        "esModuleInterop": true,
-        "target": "esnext",
-        "module": "commonjs",
-        "baseUrl": "src",
-        "paths": {
-            "@code/*": [
-                "day1/*"
-            ]
-        }
-    },
-    "include": [
-        "./src/**/*"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "types": ["bun-types", "node"],
+    "lib": ["ES2023.Array"],
+    "outDir": "dist",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "baseUrl": "src",
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

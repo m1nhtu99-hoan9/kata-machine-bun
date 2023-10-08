@@ -1,5 +1,4 @@
 import Trie from "../day3/Trie";
-// @ts-ignore
 import { test, expect } from "bun:test";
 
 test("Trie", function () {

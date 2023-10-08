@@ -1,7 +1,5 @@
 import bt_post_order from "../day3/BTPostOrder";
 import { tree } from "./tree";
-
-// @ts-ignore
 import { test, expect } from "bun:test";
 
 test("post order", function () {

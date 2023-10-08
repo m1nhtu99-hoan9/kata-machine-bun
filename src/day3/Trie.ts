@@ -1,3 +1,5 @@
+import { inspect } from "bun";
+
 class TrieNode {
   readonly children: (TrieNode | undefined)[];
   endOfWord = false;
@@ -39,7 +41,7 @@ export default class Trie {
 
     // pre-order depth-first traversal 
     return (function dfs(node: TrieNode, partial: string, results: string[]): string[] {
-      console.log(`dfs(${node.value}, '${partial}',\n\t[${results}])`);
+      console.log(`dfs(${node.value}, '${partial}',\n\t${inspect(results)})`);
 
       if (node.endOfWord)
         results.push(partial);

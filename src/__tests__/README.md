@@ -9,7 +9,8 @@ for stem in $(ls -1 | sed -e 's/\.ts$//'); do mv "${stem}.ts" "${stem}.spec.ts";
 - [x] [`DoublyLinkedList`](../day1/DoublyLinkedList.ts)
 
 ```bash
-bun test DFSOnBST BTBFS BTInOrder BTPreOrder BTPostOrder
+# BTBFS BTInOrder BTPreOrder BTPostOrder
+bun test DFSOnBST BT
 ```
 
 - [x] [`BTInOrder`](../day3/BTInOrder.ts)
