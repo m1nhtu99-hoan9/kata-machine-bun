@@ -20,3 +20,5 @@ bun test DFSOnBST BT
 - [x] [`DFSOnBST`](../day3/DFSOnBST.ts)
 - [x] [`MinHeap`](../day3/MinHeap.ts)
 - [x] [`Trie`](../day3/Trie.ts)
+- [x] [`BFSGraphMatrix`](../day3/BFSGraphMatrix.ts)
+- [x] [`DFSGraphList`](../day3/DFSGraphList.ts)
