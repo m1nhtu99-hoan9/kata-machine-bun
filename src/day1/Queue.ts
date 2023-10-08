@@ -1,18 +1,17 @@
 export default class Queue<T> {
-    public length: number;
+  public length: number;
 
-    
+  constructor() {}
 
-    constructor() {
-    }
+  enqueue(item: T): void {
+    throw new Error('not implemented');
+  }
 
-    enqueue(item: T): void {
+  deque(): T | undefined {
+    throw new Error('not implemented');
+  }
 
-}
-    deque(): T | undefined {
-
-}
-    peek(): T | undefined {
-
-}
+  peek(): T | undefined {
+    throw new Error('not implemented');
+  }
 }

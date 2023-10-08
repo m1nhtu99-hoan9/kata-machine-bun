@@ -1,18 +1,15 @@
 export default class Stack<T> {
-    public length: number;
+  public length: number;
 
-    
+  constructor() {}
 
-    constructor() {
-    }
-
-    push(item: T): void {
-
-}
-    pop(): T | undefined {
-
-}
-    peek(): T | undefined {
-
-}
+  push(item: T): void {
+    throw new Error('not implemented');
+  }
+  pop(): T | undefined {
+    throw new Error('not implemented');
+  }
+  peek(): T | undefined {
+    throw new Error('not implemented');
+  }
 }
