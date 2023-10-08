@@ -1,5 +1,3 @@
-import { isConstructorDeclaration } from "typescript";
-
 class TrieNode {
   readonly children: (TrieNode | undefined)[];
   endOfWord = false;
@@ -8,7 +6,7 @@ class TrieNode {
     this.children = new Array(26).fill(undefined);
   }
 
-  private static charCodeZero = "a".charCodeAt(0);
+  private static readonly charCodeZero = "a".charCodeAt(0);
 
   static charToCode(chr: string): number {
     return chr.toLowerCase().charCodeAt(0) - TrieNode.charCodeZero;    
