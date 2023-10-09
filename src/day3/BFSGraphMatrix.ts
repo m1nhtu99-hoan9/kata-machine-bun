@@ -1,6 +1,8 @@
 import { inspect } from "node:util";
 
-export default function bfs(graph: WeightedAdjacencyMatrix, source: number, needle: number): number[] | null {
+export default function bfs(
+  graph: Readonly<WeightedAdjacencyMatrix>, source: number, needle: number
+  ): number[] | null {
   /* row history */
   const seen = new Array(graph.length).fill(false);
   const prev: (number | undefined)[] = new Array(graph.length).fill(undefined);

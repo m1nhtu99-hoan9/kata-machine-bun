@@ -1,5 +1,5 @@
 export default function dfs(
-  graph: WeightedAdjacencyList,
+  graph: Readonly<WeightedAdjacencyList>,
   source: number,
   needle: number): number[] | null {
 
