@@ -62,3 +62,5 @@ At (5)
  1 expect() calls
 Ran 1 tests across 1 files. [17.00ms]
 ```
+
+- [x] [`LRU`](../day3/LRU.ts)
